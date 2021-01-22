@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='ContentStyleSheet.xsl'?>
+
+<!DOCTYPE contentType [
+        <!ELEMENT contentType (contents)*>
+        <!ELEMENT contents (title|text|quote|photo)*>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT text (#PCDATA)>
+        <!ELEMENT quote (#PCDATA)>
+        <!ELEMENT photo (#PCDATA)>
+
+        ]>
+<contentType>
+
+    <contents>
+        <title>Coronavirus</title>
+        <text>
+            Coronaviruses are a group of related RNA viruses that cause diseases in mammals and birds. In humans and birds, they cause respiratory tract infections that can range from mild to lethal. Mild illnesses in humans include some cases of the common cold (which is also caused by other viruses, predominantly rhinoviruses), while more lethal varieties can cause SARS, MERS, and COVID-19. In cows and pigs they cause diarrhea, while in mice they cause hepatitis and encephalomyelitis. There are as yet no vaccines or antiviral drugs to prevent or treat human coronavirus infections.
+
+            Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronaviridae, order Nidovirales, and realm Riboviria.[5][4] They are enveloped viruses with a positive-sense single-stranded RNA genome and a nucleocapsid of helical symmetry.[6] The genome size of coronaviruses ranges from approximately 26 to 32 kilobases, one of the largest among RNA viruses.[7] They have characteristic club-shaped spikes that project from their surface, which in electron micrographs create an image reminiscent of the solar corona, from which their name derives.[8]
+        </text>
+
+        <quote>
+            "You know, this is our Covid year. Let's accept it. It's not like last year and it's not, hopefully, going to be like next year....So if you really love the people that you have in your immediate family...think through this. And actually do them the greatest gift of all and that is distance yourself this year and don't expose them."
+            -Meet the Press, Oct, 18, 2020
+        </quote>
+        <photo>covid19.jpg</photo>
+
+
+
+    </contents>
+
+</contentType>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='ContentStyleSheet1-1.xsl'?>
+<!DOCTYPE contentType [
+        <!ELEMENT contentType (contents)*>
+        <!ELEMENT contents (data|title|photo|RowTitle|update)*>
+        <!ELEMENT data (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT photo (#PCDATA)>
+        <!ELEMENT RowTitle (#PCDATA)>
+        <!ELEMENT update (#PCDATA)>
+        ]>
+
+<contentType>
+
+    <contents>
+        <title>Coronavirus Stats for November 12th</title>
+        <RowTitle>CaseCount</RowTitle>
+        <data>33,755</data>
+        <update>+458</update>
+        <photo>covid-demographics.jpg</photo>
+    </contents>
+    <contents>
+        <RowTitle>Confirmed Cases</RowTitle>
+        <data>32,026</data>
+        <update>+448</update>
+    </contents>
+    <contents>
+        <RowTitle>Probable Cases</RowTitle>
+        <data>1,729</data>
+        <update>+10</update>
+    </contents>
+    <contents>
+        <RowTitle>Recovered Cases</RowTitle>
+        <data>28,129</data>
+        <update>+363</update>
+    </contents>
+    <contents>
+        <RowTitle>Fatal Cases</RowTitle>
+        <data>1,438</data>
+        <update>+6</update>
+    </contents>
+    <contents>
+        <RowTitle>Currently Hospitalized Cases</RowTitle>
+        <data>173</data>
+        <update>+17</update>
+    </contents>
+
+</contentType>

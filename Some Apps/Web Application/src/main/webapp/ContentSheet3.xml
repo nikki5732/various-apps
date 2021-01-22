@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='ContentStyleSheet3.xsl'?>
+<!DOCTYPE contentType [
+        <!ELEMENT contentType (contents)*>
+        <!ELEMENT contents (quote|text|title|photo)*>
+        <!ELEMENT text (#PCDATA)>
+        <!ELEMENT quote (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT photo (#PCDATA)>
+        ]>
+
+<contentType>
+
+    <contents>
+        <title>2020 Formula One World Championship</title>
+        <text>
+            The 2020 FIA Formula One World Championship is a motor racing championship for Formula One cars which marks the 70th anniversary of the first Formula One World Drivers' Championship.[1][a] The championship is recognised by the governing body of international motorsport, the Fédération Internationale de l'Automobile (FIA), as the highest class of competition for open-wheel racing cars. Drivers and teams are scheduled to compete for the titles of World Drivers' Champion and World Constructors' Champion respectively.
+            The championship was originally due to start in March,[2] but the start was postponed until July in response to the COVID-19 pandemic. The season was due to be contested over a record of 22 Grands Prix, but as some races were cancelled and new races were added to replace them, a total of 17 races are scheduled to be run.[3] The season started in July with the Austrian Grand Prix[4] and will end in December with the Abu Dhabi Grand Prix.[5] Due to the COVID-19 pandemic, the first eight rounds of the championship were run behind closed doors with the rest of the races due to be run at a reduced capacity or also behind closed doors due to the second wave of the COVID-19 pandemic.
+
+        </text>
+        <quote>
+            “Nothing can really prepare you for when you get in the Formula One car. Knowing that you’re driving a multimillion-dollar car, and if you crash it it’s going to cost a lot of money, and they might not give you another chance, is scary.”
+            -Lewis Hamilton
+        </quote>
+        <photo>lewis-hamilton.jpg</photo>
+
+
+    </contents>
+
+</contentType>

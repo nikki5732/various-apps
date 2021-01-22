@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='ContentStyleSheet2-beyond.xsl'?>
+<!DOCTYPE contentType [
+        <!ELEMENT contentType (contents)*>
+        <!ELEMENT contents (quote|text|title|photo|facts)*>
+        <!ELEMENT text (#PCDATA)>
+        <!ELEMENT quote (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT photo (#PCDATA)>
+        <!ELEMENT facts (#PCDATA|fact)*>
+        <!ELEMENT fact (#PCDATA)>
+        ]>
+
+<contentType>
+
+    <contents>
+        <title>Kamala Devi Harris</title>
+        <text>
+            Kamala Devi Harris (/ˈkɑːmələ/ KAH-mə-lə;[2][3] born October 20, 1964) is an American politician and attorney who is the vice president-elect of the United States. A member of the Democratic Party, she is set to assume office on January 20, 2021, alongside President-elect Joe Biden, having defeated incumbent President Donald Trump and Vice President Mike Pence in the 2020 election. She will be the United States' first female vice president and the highest-ranking female elected official in U.S. history. Harris will be also the first Asian-American and the first African-American vice president.[4][5]
+
+            Born in Oakland, California, Harris graduated from Howard University and the University of California, Hastings College of the Law. She began her career in the Alameda County District Attorney's Office, before being recruited to the San Francisco District Attorney's Office and later the City Attorney of San Francisco's office. In 2003, she was elected district attorney of San Francisco. She was elected Attorney General of California in 2010 and re-elected in 2014. Harris has served as the junior United States senator from California since 2017. Harris defeated Loretta Sanchez in the 2016 Senate election to become the second African American woman and the first South Asian American to serve in the United States Senate.[6][7] As a senator, she has advocated for healthcare reform, federal descheduling of cannabis, a path to citizenship for undocumented immigrants, the DREAM Act, a ban on assault weapons, and progressive tax reform. She gained a national profile for her pointed questioning of Trump administration officials during Senate hearings, including Trump's second Supreme Court nominee Brett Kavanaugh, who was accused of sexual assault.[8]
+        </text>
+        <quote>
+            “My mother used to tell me – she would tell my sister – my mother would look at me and she’d say, ‘Kamala, you may be the first to do many things, but make sure you are not the last,’” Harris said during a speech at Spelman College in 2018. “And that’s why breaking those barriers is worth it. As much as anything else, it is also to create that path for those who will come after us.”
+            - Kamala Harris
+        </quote>
+
+        <photo>kamala-harris.jpg</photo>
+
+    </contents>
+
+</contentType>

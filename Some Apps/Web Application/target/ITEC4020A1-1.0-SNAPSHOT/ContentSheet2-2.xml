@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='ContentStyleSheet2-2-beyond.xsl'?>
+<!DOCTYPE contentType [
+        <!ELEMENT contentType (contents)*>
+        <!ELEMENT contents (quote|text|title|photo)*>
+        <!ELEMENT text (#PCDATA)>
+        <!ELEMENT quote (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT photo (#PCDATA)>
+        ]>
+
+<contentType>
+
+    <contents>
+        <title>Jill Tracy Jacobs Biden</title>
+        <text>
+            Jill Tracy Jacobs Biden (née Jacobs, formerly Stevenson; born June 3, 1951) is an American educator who was Second Lady of the United States from 2009 to 2017. She is married to Joe Biden, the President-elect of the United States who is set to be inaugurated on January 20, 2021, at which time she is expected to become first lady.
+
+            Born in Hammonton, New Jersey, she grew up in Willow Grove, Pennsylvania. She married Joe Biden in 1977, becoming stepmother to Beau and Hunter, his two sons from his first marriage; their mother and baby sister had died in a car accident in 1972. Biden and her husband also have a daughter together, Ashley, born in 1981. She has a bachelor's degree and doctoral degree from the University of Delaware, as well as master's degrees from West Chester University and Villanova University. She taught English and reading in high schools for 13 years, and also taught adolescents with emotional disabilities at a psychiatric hospital.
+        </text>
+        <quote>
+            “The Biden's have another belief as well:" If you have to ask, it's too late." When someone is in need, when they're hurting, when they're overwhelmed, you don't wait until they tell you they need your help"
+            -Jill Biden, Where the Light Enters: Building a Family, Discovering Myself
+        </quote>
+
+        <photo>jill-biden.jpg</photo>
+
+
+    </contents>
+
+</contentType>

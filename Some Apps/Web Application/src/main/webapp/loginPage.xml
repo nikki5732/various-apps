@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='loginstylesheet.xsl'?>
+<!DOCTYPE defaultpg [
+        <!ELEMENT defaultpg (credential)*>
+        <!ELEMENT credential (userid|password)*>
+        <!ELEMENT userid (#PCDATA)>
+        <!ELEMENT password (#PCDATA)>
+        ]>
+<defaultpg>
+    <credential>
+        <userid>Username: </userid>
+        <password>Password: </password>
+    </credential>
+</defaultpg>

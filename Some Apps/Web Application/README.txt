@@ -1,0 +1,1 @@
+In this application, a secured web application was made using a mix of HTML, CSS, Java, Servlets, XML and XSL.
